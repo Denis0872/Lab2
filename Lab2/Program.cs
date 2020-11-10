@@ -10,7 +10,7 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
-            int z = 9;
+            int z = 5;
             int x = 3;
         }
     }
