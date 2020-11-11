@@ -6,14 +6,20 @@ using System.Threading.Tasks;
 
 namespace Lab2
 {
-    class Enum
+    public enum AccountType{Checking, Deposit }
+    class  Enum
     {
         static void Main(string[] args)
         {
-            int z = 5;
-            int x = 3;
-            int p = 4;
-            
+            AccountType goldAccount;
+            AccountType platinumAccount;
+            goldAccount = AccountType.Checking;
+            platinumAccount = AccountType.Deposit;
+            Console.WriteLine("The Customer Account Type is {0}", goldAccount);
+            Console.WriteLine("The Customer Account Type is {0}", platinumAccount);
+            Console.ReadKey();
+
+
         }
     }
 }
