@@ -12,6 +12,7 @@ namespace Lab2
         {
             int z = 5;
             int x = 3;
+            
         }
     }
 }
